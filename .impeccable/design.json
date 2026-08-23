@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-23T22:15:36+02:00",
+  "title": "Design System: InnerReset",
+  "extensions": {
+    "colorMeta": {
+      "inner-black": {
+        "role": "neutral",
+        "displayName": "Inner Black",
+        "canonical": "#050608",
+        "tonalRamp": ["#050608", "#14161B", "#292C33", "#42464F", "#656A74", "#9297A0", "#C4C7CC", "#F4F5F6"]
+      },
+      "raised-black": {
+        "role": "neutral",
+        "displayName": "Raised Black",
+        "canonical": "#0E0F13",
+        "tonalRamp": ["#08090C", "#16181D", "#2A2D34", "#444850", "#666B74", "#9398A0", "#C4C7CC", "#F4F5F6"]
+      },
+      "warm-cream": {
+        "role": "primary",
+        "displayName": "Warm Cream",
+        "canonical": "#F7E7CA",
+        "tonalRamp": ["#2B1E0D", "#49341C", "#6C5130", "#927347", "#B99A69", "#D9BF91", "#F0DBB8", "#FFF7E9"]
+      },
+      "champagne": {
+        "role": "primary",
+        "displayName": "Champagne",
+        "canonical": "#F0C88D",
+        "tonalRamp": ["#2B1B08", "#4A3013", "#704B22", "#986B35", "#BF8F51", "#DCAF73", "#F0CD9A", "#FFF1D5"]
+      },
+      "artifact-gold": {
+        "role": "secondary",
+        "displayName": "Artifact Gold",
+        "canonical": "#D99A4C",
+        "tonalRamp": ["#2B1805", "#4B2A0C", "#704216", "#985D24", "#BC7C38", "#D99A4C", "#EDBE83", "#FBE6C7"]
+      },
+      "secondary-text": {
+        "role": "neutral",
+        "displayName": "Secondary Text",
+        "canonical": "#B8B4AD",
+        "tonalRamp": ["#211F1C", "#383530", "#514E48", "#6D6962", "#8B8780", "#AAA69F", "#D0CDC8", "#F6F5F3"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Editorial Display", "purpose": "Emotional promises and major closing statements." },
+      "body": { "displayName": "Interface Body", "purpose": "Readable explanations, navigation, and controls." },
+      "label": { "displayName": "Ceremonial Label", "purpose": "Small structural labels and section rules." }
+    },
+    "shadows": [
+      { "name": "device-lift", "value": "0 35px 65px rgba(0, 0, 0, 0.55), 0 8px 18px rgba(0, 0, 0, 0.42)", "purpose": "Directional physical lift for real product devices." },
+      { "name": "editorial-object", "value": "0 28px 58px rgba(0, 0, 0, 0.26)", "purpose": "Quiet depth beneath large artifact cards." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Disclosure and small directional state changes." },
+      { "name": "resonance-breath", "value": "9s ease-in-out infinite alternate", "purpose": "Slow luminance breathing in the primary resonance field; disabled for reduced motion." }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "767px" },
+      { "name": "tablet", "value": "1199px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single warm, launch-state action.",
+      "html": "<button class=\"ds-btn-primary\">GET EARLY ACCESS</button>",
+      "css": ".ds-btn-primary{min-height:50px;padding:12px 23px;border:1px solid transparent;border-radius:999px;background:#F7E7CA;color:#050608;font:600 14px/1 Inter,Arial,sans-serif;box-shadow:inset 0 1px rgba(255,255,255,.45),0 8px 24px rgba(217,154,76,.12);transition:background-color .18s ease,box-shadow .18s ease}.ds-btn-primary:hover{background:#FFF1D8;box-shadow:inset 0 1px rgba(255,255,255,.55),0 10px 30px rgba(217,154,76,.2)}.ds-btn-primary:focus-visible{outline:2px solid #F7E7CA;outline-offset:4px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A quiet outlined action subordinate to conversion.",
+      "html": "<button class=\"ds-btn-secondary\">SEE HOW IT WORKS</button>",
+      "css": ".ds-btn-secondary{min-height:50px;padding:12px 23px;border:1px solid rgba(240,200,141,.42);border-radius:999px;background:#050608;color:#F7E7CA;font:600 14px/1 Inter,Arial,sans-serif;transition:background-color .18s ease,border-color .18s ease}.ds-btn-secondary:hover{border-color:rgba(247,231,202,.75);background:rgba(240,200,141,.06)}.ds-btn-secondary:focus-visible{outline:2px solid #F7E7CA;outline-offset:4px}"
+    },
+    {
+      "name": "Editorial Artifact Card",
+      "kind": "card",
+      "refersTo": "editorial-card",
+      "description": "A large, quiet frame for one real experience and its device.",
+      "html": "<article class=\"ds-artifact-card\"><h3>Words to Carry</h3><p>For the moment you’re in.</p></article>",
+      "css": ".ds-artifact-card{min-height:280px;padding:44px;border:1px solid rgba(240,200,141,.17);border-radius:16px;background:#0E0F13;color:#EEEAE3;box-shadow:0 28px 58px rgba(0,0,0,.26)}.ds-artifact-card h3{margin:0;color:#F7E7CA;font:600 38px/1.05 Fraunces,Georgia,serif;letter-spacing:-.03em}.ds-artifact-card p{color:#F0C88D;font:600 12px/1.5 Inter,Arial,sans-serif}"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "description": "Small warm navigation that stays visually secondary to the page thesis.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">HOW IT WORKS</a><a href=\"#\">EXPERIENCES</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px;align-items:center;background:#050608;color:#D4D0C9;font:500 13px/1 Inter,Arial,sans-serif}.ds-nav a{color:inherit;text-decoration:none;transition:color .18s ease}.ds-nav a:hover{color:#F0C88D}.ds-nav a:focus-visible{outline:2px solid #F7E7CA;outline-offset:4px}"
+    },
+    {
+      "name": "Device Frame",
+      "kind": "custom",
+      "description": "A thin dark frame and directional shadow for real product screenshots.",
+      "html": "<div class=\"ds-device\"><div class=\"ds-device-screen\"></div></div>",
+      "css": ".ds-device{width:180px;aspect-ratio:393/852;padding:2px;border-radius:48px;background:linear-gradient(145deg,#323238,#090A0D 30%,#333137 78%,#090A0D);box-shadow:0 35px 65px rgba(0,0,0,.55),0 8px 18px rgba(0,0,0,.42)}.ds-device-screen{width:100%;height:100%;border-radius:46px;background:radial-gradient(circle at 50% 35%,rgba(217,154,76,.28),transparent 30%),#090A0D}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Private Resonance Chamber",
+    "overview": "InnerReset inhabits a near-black editorial space where a person’s words feel held, shaped, and returned as an object. Warm metallic typography and rules supply human ceremony; ember, rose, and violet appear only as emitted energy around real artifacts and the canonical mark. The system is intimate and cinematic without becoming spa-like, mystical, or technical-dashboard chrome. Quiet negative space makes the few luminous moments feel consequential.",
+    "keyCharacteristics": [
+      "Near-black fields with warm, readable foregrounds",
+      "Real product screens treated as private artifacts",
+      "Editorial serif scale paired with precise sans-serif controls",
+      "Light emitted from the mark and artifact media, never flat neon decoration",
+      "Hairline structure, restrained depth, and deliberate quiet"
+    ],
+    "rules": [
+      { "name": "The Emitted Spectrum Rule", "body": "Rose and violet describe energy around a real artifact; they never become freestanding decorative UI color.", "section": "colors" },
+      { "name": "The Serif Has Weight Rule", "body": "Fraunces is reserved for promises, artifact names, and meaningful structure; controls and explanations stay sans-serif.", "section": "typography" },
+      { "name": "The Artifact Depth Rule", "body": "Objects may lift; ordinary copy and navigation remain on the page plane.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use the canonical mark by scaling or glowing the unchanged source image.",
+      "Do keep real product screenshots legible and visually dominant over atmosphere.",
+      "Do maintain secondary reading text at or above the established contrast floor.",
+      "Do pace each page with dense artifact moments followed by genuine quiet."
+    ],
+    "donts": [
+      "Don't flatten ember, rose, or violet into generic neon UI accents.",
+      "Don't introduce botanical, beige, social, gamified, or dashboard visual grammar.",
+      "Don't use generated or reconstructed app UI in place of real screens.",
+      "Don't animate the logo’s geometry, ring count, rotation, or proportions."
+    ]
+  }
+}
