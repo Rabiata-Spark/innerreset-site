@@ -108,7 +108,7 @@
     );
     video.load();
     figure.dataset.motionLoaded = "true";
-    await video.play().catch(() => {});
+    if (figure.dataset.inView === "true") await video.play().catch(() => {});
   };
 
   const unloadMotion = (figure) => {
@@ -129,6 +129,7 @@
       (entries) => {
         entries.forEach((entry) => {
           const video = entry.target.querySelector("video");
+          entry.target.dataset.inView = String(entry.isIntersecting);
           if (entry.isIntersecting) {
             if (entry.target.dataset.motionLoaded === "true" && video) {
               video.play().catch(() => {});
@@ -151,6 +152,7 @@
       } else if (motionObserver) {
         motionObserver.observe(figure);
       } else {
+        figure.dataset.inView = "true";
         loadMotion(figure);
       }
     });
