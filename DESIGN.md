@@ -7,16 +7,17 @@ colors:
   warm-cream: "#F7E7CA"
   champagne: "#F0C88D"
   artifact-gold: "#D99A4C"
-  deep-bronze: "#A96F32"
+  emitted-rose: "#DC638D"
+  emitted-violet: "#8A61E8"
   primary-text: "#EEEAE3"
-  secondary-text: "#B8B4AD"
+  secondary-text: "#BDB8B0"
 typography:
   display:
     fontFamily: "Fraunces, Georgia, serif"
-    fontSize: "clamp(3.125rem, 5.7vw, 5.125rem)"
+    fontSize: "clamp(2.6rem, 11.6vw, 5.5rem)"
     fontWeight: 600
     lineHeight: 0.98
-    letterSpacing: "-0.035em"
+    letterSpacing: "-0.03em"
   body:
     fontFamily: "Inter, Arial, sans-serif"
     fontSize: "1rem"
@@ -35,27 +36,28 @@ rounded:
 spacing:
   compact: "12px"
   component: "24px"
-  section: "96px"
+  gutter: "clamp(1.25rem, 4vw, 4rem)"
+  section: "clamp(4rem, 12vw, 9rem)"
 components:
   button-primary:
     backgroundColor: "{colors.warm-cream}"
     textColor: "{colors.inner-black}"
     typography: "{typography.body}"
     rounded: "{rounded.control}"
-    padding: "12px 23px"
+    padding: "12px 22.4px"
     height: "50px"
   button-secondary:
     backgroundColor: "transparent"
     textColor: "{colors.warm-cream}"
     typography: "{typography.body}"
     rounded: "{rounded.control}"
-    padding: "12px 23px"
+    padding: "12px 22.4px"
     height: "50px"
   editorial-card:
     backgroundColor: "{colors.raised-black}"
     textColor: "{colors.primary-text}"
     rounded: "{rounded.editorial-object}"
-    padding: "44px"
+    padding: "clamp(1.75rem, 6vw, 2.7rem)"
 ---
 
 # Design System: InnerReset
@@ -108,8 +110,8 @@ Black owns the field; warm cream and champagne carry language and action, while 
 
 ### Hierarchy
 
-- **Display** (600, responsive up to 5.125rem, 0.98): Hero and closing promises only.
-- **Headline** (600, responsive 2.625–4.75rem, 1.05): Section-scale emotional statements.
+- **Display** (600, responsive 2.6–5.5rem, 0.98): Hero and closing promises only.
+- **Headline** (600, responsive 2.35–5rem, 1.02): Section-scale emotional statements.
 - **Title** (600, responsive 1.375–2.6875rem, 1.1): Experiences and ordered moves.
 - **Body** (400, 1rem, 1.6–1.75): Supporting copy, held to roughly 65–75 characters per line.
 - **Label** (600, 0.625–0.75rem, tracked uppercase): Navigation details and required section dividers.
@@ -118,7 +120,7 @@ Black owns the field; warm cream and champagne carry language and action, while 
 
 ## Layout
 
-The global shell is fluid with a 1440px maximum and generous side gutters. Desktop hero composition is a 44/56 editorial split; four moves form a single row and experiences form three columns. Tablet moves to a 2×2 sequence and two-column experiences with the third spanning the width. Mobile is deliberately recomposed: copy first, one dominant phone with one partial companion, compact move rows, stacked experiences, and a contained scroll-snap screen strip.
+The global shell is fluid with a 1440px maximum and gutters from 20px to 64px. At 1024px the hero becomes a 44/56 editorial split and the four moves form one row; at 1200px the six-screen strip becomes the two-path composition. Experience cards switch through their own container, not the viewport. Mobile deliberately overlays one dominant phone and portal into the first viewport, then uses compact move rows, stacked experiences, and a contained scroll-snap screen strip.
 
 Section boundaries are warm hairlines with large vertical intervals. Tight spacing belongs inside a copy group; generous space separates changes in meaning. Wide content never creates page-level horizontal overflow.
 
@@ -158,7 +160,7 @@ Real 393×852 product screenshots sit in thin dark CSS frames with a directional
 
 ### Motion Field
 
-Every motion slot is the same semantic figure pattern: a stable poster/static layer, a CSS fallback, and an optional lazy decorative video. Motion is muted, viewport-bound, and completely absent under reduced-motion preferences.
+Every motion slot is the same semantic figure pattern: an AVIF/WebP/JPG poster, a CSS fallback, and manifest-driven WebM/MP4 video attached near the viewport. Motion is muted, seamless, pause-offscreen, and completely absent under reduced-motion preferences. Reveals travel no more than 20px over at most 560ms; scroll timelines enhance them where supported and IntersectionObserver supplies the fallback.
 
 ## Do's and Don'ts
 

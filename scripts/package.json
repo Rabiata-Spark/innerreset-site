@@ -1,0 +1,14 @@
+{
+  "name": "innerreset-media-pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "make:images": "node make-images.mjs",
+    "make:loops": "node make-loops.mjs",
+    "make:assets": "npm run make:images && npm run make:loops"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.3.0",
+    "sharp": "^0.35.3"
+  }
+}

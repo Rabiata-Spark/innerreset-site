@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-23T22:15:36+02:00",
+  "generatedAt": "2026-08-24T00:38:37+02:00",
   "title": "Design System: InnerReset",
   "extensions": {
     "colorMeta": {
@@ -34,10 +34,22 @@
         "canonical": "#D99A4C",
         "tonalRamp": ["#2B1805", "#4B2A0C", "#704216", "#985D24", "#BC7C38", "#D99A4C", "#EDBE83", "#FBE6C7"]
       },
+      "emitted-rose": {
+        "role": "secondary",
+        "displayName": "Emitted Rose",
+        "canonical": "#DC638D",
+        "tonalRamp": ["#2B111B", "#4A1D2E", "#702D47", "#984161", "#BE567A", "#DC638D", "#EE9FB8", "#FBDDE8"]
+      },
+      "emitted-violet": {
+        "role": "secondary",
+        "displayName": "Emitted Violet",
+        "canonical": "#8A61E8",
+        "tonalRamp": ["#1B1233", "#2D2053", "#443376", "#5D489B", "#775CC1", "#8A61E8", "#B9A3F4", "#E5DCFC"]
+      },
       "secondary-text": {
         "role": "neutral",
         "displayName": "Secondary Text",
-        "canonical": "#B8B4AD",
+        "canonical": "#BDB8B0",
         "tonalRamp": ["#211F1C", "#383530", "#514E48", "#6D6962", "#8B8780", "#AAA69F", "#D0CDC8", "#F6F5F3"]
       }
     },
@@ -51,12 +63,13 @@
       { "name": "editorial-object", "value": "0 28px 58px rgba(0, 0, 0, 0.26)", "purpose": "Quiet depth beneath large artifact cards." }
     ],
     "motion": [
-      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Disclosure and small directional state changes." },
-      { "name": "resonance-breath", "value": "9s ease-in-out infinite alternate", "purpose": "Slow luminance breathing in the primary resonance field; disabled for reduced motion." }
+      { "name": "ease-luxe", "value": "cubic-bezier(.22,.61,.36,1)", "purpose": "Disclosure and section reveals up to 560ms and 20px." },
+      { "name": "seam-xfade", "value": "0.72s tail-to-head", "purpose": "Mathematically closes every 9.38s decorative loop before web encoding." }
     ],
     "breakpoints": [
-      { "name": "mobile", "value": "767px" },
-      { "name": "tablet", "value": "1199px" }
+      { "name": "tablet", "value": "768px" },
+      { "name": "desktop", "value": "1024px" },
+      { "name": "two-paths", "value": "1200px" }
     ]
   },
   "components": [

@@ -1,1 +1,77 @@
-{"clips":{"ir-logo-resonance":{"mp4":"ir-logo-resonance.mp4","poster":"ir-logo-resonance-poster.jpg"},"ir-voice-halo":{"mp4":"ir-voice-halo.mp4","poster":"ir-voice-halo-poster.png"},"ir-transform-field":{"mp4":"ir-transform-field.mp4","poster":"ir-transform-field-poster.png"},"ir-mindtrack-geometry":{"mp4":"ir-mindtrack-geometry.mp4","poster":"ir-mindtrack-geometry-poster.png"}}}
+{
+  "version": 2,
+  "seam": {
+    "method": "0.72s tail-to-head xfade",
+    "outputDuration": "source minus 0.72s"
+  },
+  "clips": {
+    "m1-ripple-portal": {
+      "webm": "m1-ripple-portal.webm",
+      "mp4": "m1-ripple-portal.mp4",
+      "poster": {
+        "avif": "m1-ripple-portal-poster.avif",
+        "webp": "m1-ripple-portal-poster.webp",
+        "jpg": "m1-ripple-portal-poster.jpg"
+      },
+      "width": 1080,
+      "height": 1080,
+      "duration": 9.36,
+      "crossfadeSeconds": 0.72,
+      "encoding": {
+        "vp9Crf": 33,
+        "h264Crf": 23
+      }
+    },
+    "m2-golden-ring": {
+      "webm": "m2-golden-ring.webm",
+      "mp4": "m2-golden-ring.mp4",
+      "poster": {
+        "avif": "m2-golden-ring-poster.avif",
+        "webp": "m2-golden-ring-poster.webp",
+        "jpg": "m2-golden-ring-poster.jpg"
+      },
+      "width": 1080,
+      "height": 1080,
+      "duration": 9.36,
+      "crossfadeSeconds": 0.72,
+      "encoding": {
+        "vp9Crf": 33,
+        "h264Crf": 23
+      }
+    },
+    "m3-nebula-emblem": {
+      "webm": "m3-nebula-emblem.webm",
+      "mp4": "m3-nebula-emblem.mp4",
+      "poster": {
+        "avif": "m3-nebula-emblem-poster.avif",
+        "webp": "m3-nebula-emblem-poster.webp",
+        "jpg": "m3-nebula-emblem-poster.jpg"
+      },
+      "width": 1080,
+      "height": 1080,
+      "duration": 9.36,
+      "crossfadeSeconds": 0.72,
+      "encoding": {
+        "vp9Crf": 33,
+        "h264Crf": 23
+      }
+    },
+    "m4-lightwave": {
+      "webm": "m4-lightwave.webm",
+      "mp4": "m4-lightwave.mp4",
+      "poster": {
+        "avif": "m4-lightwave-poster.avif",
+        "webp": "m4-lightwave-poster.webp",
+        "jpg": "m4-lightwave-poster.jpg"
+      },
+      "width": 1920,
+      "height": 640,
+      "duration": 9.36,
+      "crossfadeSeconds": 0.72,
+      "encoding": {
+        "vp9Crf": 33,
+        "h264Crf": 23
+      }
+    }
+  }
+}
