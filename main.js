@@ -87,6 +87,14 @@
     webm.src = `${motionRoot}${clip.webm}`;
     mp4.src = `${motionRoot}${clip.mp4}`;
     video.poster = `${motionRoot}${clip.poster.jpg}`;
+    const handleVideoError = () => {
+      const state = figure.dataset.motionState;
+      if (state !== "pending" && state !== "loaded") return;
+      clearVideo(figure);
+      figure.dataset.motionState = "error";
+    };
+    video.addEventListener("error", handleVideoError, { once: true });
+    mp4.addEventListener("error", handleVideoError, { once: true });
     video.addEventListener("loadeddata", () => {
       figure.classList.add("is-ready");
       figure.dataset.motionState = "loaded";

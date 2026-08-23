@@ -65,25 +65,15 @@
 
   :root {
     --ink-950: #050608;
-    --ink-950: oklch(0.125 0.008 286);
     --ink-900: #090a0d;
-    --ink-900: oklch(0.155 0.01 286);
     --ink-850: #0e0f13;
-    --ink-850: oklch(0.19 0.012 286);
     --cream-100: #f7e7ca;
-    --cream-100: oklch(0.93 0.045 78);
     --champagne-300: #f0c88d;
-    --champagne-300: oklch(0.84 0.09 75);
     --gold-500: #d99a4c;
-    --gold-500: oklch(0.72 0.13 68);
     --rose-500: #dc638d;
-    --rose-500: oklch(0.67 0.16 5);
     --violet-500: #8a61e8;
-    --violet-500: oklch(0.61 0.2 295);
     --text-primary: #eeeae3;
-    --text-primary: oklch(0.93 0.012 80);
     --text-secondary: #bdb8b0;
-    --text-secondary: oklch(0.77 0.016 76);
     --rule: rgba(240, 200, 141, 0.22);
     --rule-strong: rgba(240, 200, 141, 0.42);
     --serif: "Fraunces", Georgia, serif;
@@ -92,6 +82,21 @@
     --gutter: clamp(1.25rem, 4vw, 4rem);
     --section-space: clamp(4rem, 12vw, 9rem);
     --radius: 1rem;
+  }
+
+  @supports (color: oklch(0 0 0)) {
+    :root {
+      --ink-950: oklch(0.125 0.008 286);
+      --ink-900: oklch(0.155 0.01 286);
+      --ink-850: oklch(0.19 0.012 286);
+      --cream-100: oklch(0.93 0.045 78);
+      --champagne-300: oklch(0.84 0.09 75);
+      --gold-500: oklch(0.72 0.13 68);
+      --rose-500: oklch(0.67 0.16 5);
+      --violet-500: oklch(0.61 0.2 295);
+      --text-primary: oklch(0.93 0.012 80);
+      --text-secondary: oklch(0.77 0.016 76);
+    }
   }
 }
 
