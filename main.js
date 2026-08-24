@@ -40,8 +40,8 @@
   }
 
   let wordIndex = 0;
-  for (const heading of document.querySelectorAll("h1, h2")) {
-    const label = (heading.innerText || heading.textContent).trim().replace(/\s+/g, " ");
+  for (const heading of document.querySelectorAll("h1, h2:not(.sr-only)")) {
+    const label = heading.textContent.trim().replace(/\s+/g, " ");
     const walker = document.createTreeWalker(heading, NodeFilter.SHOW_TEXT);
     const textNodes = [];
     while (walker.nextNode()) textNodes.push(walker.currentNode);
@@ -90,7 +90,7 @@
   const motionRoot = "assets/motion/";
   let manifestPromise;
   const getManifest = () => {
-    manifestPromise ??= fetch(`${motionRoot}manifest.json?v=4`, { cache: "force-cache" })
+    manifestPromise ??= fetch(`${motionRoot}manifest.json?v=5`, { cache: "force-cache" })
       .then((response) => (response.ok ? response.json() : null))
       .catch(() => null);
     return manifestPromise;
@@ -150,6 +150,7 @@
       figure.dataset.motionState = "error";
     };
     video.addEventListener("error", handleVideoError, { once: true });
+    webm.addEventListener("error", handleVideoError, { once: true });
     mp4.addEventListener("error", handleVideoError, { once: true });
     video.addEventListener("loadeddata", () => {
       figure.classList.add("is-ready");

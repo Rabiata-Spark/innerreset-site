@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "seam": {
     "method": "0.678s tail-to-head xfade over a 0.72s seam window",
     "outputDuration": "source minus 0.72s"
@@ -15,40 +15,6 @@
         "avif": "m1-hero-mark-poster.avif",
         "webp": "m1-hero-mark-poster.webp",
         "jpg": "m1-hero-mark-poster.jpg"
-      },
-      "width": 1440,
-      "height": 1440,
-      "duration": 9.36,
-      "crossfadeSeconds": 0.678,
-      "encoding": {
-        "vp9Crf": 33,
-        "h264Crf": 23
-      }
-    },
-    "m2-voice-halo": {
-      "webm": "m2-voice-halo.webm",
-      "mp4": "m2-voice-halo.mp4",
-      "poster": {
-        "avif": "m2-voice-halo-poster.avif",
-        "webp": "m2-voice-halo-poster.webp",
-        "jpg": "m2-voice-halo-poster.jpg"
-      },
-      "width": 1440,
-      "height": 1440,
-      "duration": 9.36,
-      "crossfadeSeconds": 0.678,
-      "encoding": {
-        "vp9Crf": 41,
-        "h264Crf": 27
-      }
-    },
-    "m3-transform-emblem": {
-      "webm": "m3-transform-emblem.webm",
-      "mp4": "m3-transform-emblem.mp4",
-      "poster": {
-        "avif": "m3-transform-emblem-poster.avif",
-        "webp": "m3-transform-emblem-poster.webp",
-        "jpg": "m3-transform-emblem-poster.jpg"
       },
       "width": 1440,
       "height": 1440,
@@ -83,6 +49,40 @@
         "avif": "m5-mind-crystal-poster.avif",
         "webp": "m5-mind-crystal-poster.webp",
         "jpg": "m5-mind-crystal-poster.jpg"
+      },
+      "width": 1440,
+      "height": 1440,
+      "duration": 9.36,
+      "crossfadeSeconds": 0.678,
+      "encoding": {
+        "vp9Crf": 33,
+        "h264Crf": 23
+      }
+    },
+    "m6-voice-wave": {
+      "webm": "m6-voice-wave.webm",
+      "mp4": "m6-voice-wave.mp4",
+      "poster": {
+        "avif": "m6-voice-wave-poster.avif",
+        "webp": "m6-voice-wave-poster.webp",
+        "jpg": "m6-voice-wave-poster.jpg"
+      },
+      "width": 1440,
+      "height": 1440,
+      "duration": 9.36,
+      "crossfadeSeconds": 0.678,
+      "encoding": {
+        "vp9Crf": 33,
+        "h264Crf": 23
+      }
+    },
+    "m7-ink-stroke": {
+      "webm": "m7-ink-stroke.webm",
+      "mp4": "m7-ink-stroke.mp4",
+      "poster": {
+        "avif": "m7-ink-stroke-poster.avif",
+        "webp": "m7-ink-stroke-poster.webp",
+        "jpg": "m7-ink-stroke-poster.jpg"
       },
       "width": 1440,
       "height": 1440,
