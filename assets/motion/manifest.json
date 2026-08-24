@@ -1,73 +1,93 @@
 {
-  "version": 2,
+  "version": 4,
   "seam": {
-    "method": "0.72s tail-to-head xfade",
+    "method": "0.678s tail-to-head xfade over a 0.72s seam window",
     "outputDuration": "source minus 0.72s"
   },
+  "processing": {
+    "blackCrush": "RGB values below 16 set to 0 before delivery encode"
+  },
   "clips": {
-    "m1-ripple-portal": {
-      "webm": "m1-ripple-portal.webm",
-      "mp4": "m1-ripple-portal.mp4",
+    "m1-hero-mark": {
+      "webm": "m1-hero-mark.webm",
+      "mp4": "m1-hero-mark.mp4",
       "poster": {
-        "avif": "m1-ripple-portal-poster.avif",
-        "webp": "m1-ripple-portal-poster.webp",
-        "jpg": "m1-ripple-portal-poster.jpg"
+        "avif": "m1-hero-mark-poster.avif",
+        "webp": "m1-hero-mark-poster.webp",
+        "jpg": "m1-hero-mark-poster.jpg"
       },
-      "width": 1080,
-      "height": 1080,
+      "width": 1440,
+      "height": 1440,
       "duration": 9.36,
-      "crossfadeSeconds": 0.72,
+      "crossfadeSeconds": 0.678,
       "encoding": {
         "vp9Crf": 33,
         "h264Crf": 23
       }
     },
-    "m2-golden-ring": {
-      "webm": "m2-golden-ring.webm",
-      "mp4": "m2-golden-ring.mp4",
+    "m2-voice-halo": {
+      "webm": "m2-voice-halo.webm",
+      "mp4": "m2-voice-halo.mp4",
       "poster": {
-        "avif": "m2-golden-ring-poster.avif",
-        "webp": "m2-golden-ring-poster.webp",
-        "jpg": "m2-golden-ring-poster.jpg"
+        "avif": "m2-voice-halo-poster.avif",
+        "webp": "m2-voice-halo-poster.webp",
+        "jpg": "m2-voice-halo-poster.jpg"
       },
-      "width": 1080,
-      "height": 1080,
+      "width": 1440,
+      "height": 1440,
       "duration": 9.36,
-      "crossfadeSeconds": 0.72,
+      "crossfadeSeconds": 0.678,
+      "encoding": {
+        "vp9Crf": 41,
+        "h264Crf": 27
+      }
+    },
+    "m3-transform-emblem": {
+      "webm": "m3-transform-emblem.webm",
+      "mp4": "m3-transform-emblem.mp4",
+      "poster": {
+        "avif": "m3-transform-emblem-poster.avif",
+        "webp": "m3-transform-emblem-poster.webp",
+        "jpg": "m3-transform-emblem-poster.jpg"
+      },
+      "width": 1440,
+      "height": 1440,
+      "duration": 9.36,
+      "crossfadeSeconds": 0.678,
       "encoding": {
         "vp9Crf": 33,
         "h264Crf": 23
       }
     },
-    "m3-nebula-emblem": {
-      "webm": "m3-nebula-emblem.webm",
-      "mp4": "m3-nebula-emblem.mp4",
+    "m4-divider-wave": {
+      "webm": "m4-divider-wave.webm",
+      "mp4": "m4-divider-wave.mp4",
       "poster": {
-        "avif": "m3-nebula-emblem-poster.avif",
-        "webp": "m3-nebula-emblem-poster.webp",
-        "jpg": "m3-nebula-emblem-poster.jpg"
+        "avif": "m4-divider-wave-poster.avif",
+        "webp": "m4-divider-wave-poster.webp",
+        "jpg": "m4-divider-wave-poster.jpg"
       },
-      "width": 1080,
-      "height": 1080,
+      "width": 2036,
+      "height": 1016,
       "duration": 9.36,
-      "crossfadeSeconds": 0.72,
+      "crossfadeSeconds": 0.678,
       "encoding": {
         "vp9Crf": 33,
         "h264Crf": 23
       }
     },
-    "m4-lightwave": {
-      "webm": "m4-lightwave.webm",
-      "mp4": "m4-lightwave.mp4",
+    "m5-mind-crystal": {
+      "webm": "m5-mind-crystal.webm",
+      "mp4": "m5-mind-crystal.mp4",
       "poster": {
-        "avif": "m4-lightwave-poster.avif",
-        "webp": "m4-lightwave-poster.webp",
-        "jpg": "m4-lightwave-poster.jpg"
+        "avif": "m5-mind-crystal-poster.avif",
+        "webp": "m5-mind-crystal-poster.webp",
+        "jpg": "m5-mind-crystal-poster.jpg"
       },
-      "width": 1920,
-      "height": 640,
+      "width": 1440,
+      "height": 1440,
       "duration": 9.36,
-      "crossfadeSeconds": 0.72,
+      "crossfadeSeconds": 0.678,
       "encoding": {
         "vp9Crf": 33,
         "h264Crf": 23
