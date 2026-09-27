@@ -1,143 +1,320 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T00:38:37+02:00",
+  "generatedAt": "2026-09-27T14:26:17.557Z",
   "title": "Design System: InnerReset",
   "extensions": {
     "colorMeta": {
-      "inner-black": {
+      "paper": {
         "role": "neutral",
-        "displayName": "Inner Black",
-        "canonical": "#050608",
-        "tonalRamp": ["#050608", "#14161B", "#292C33", "#42464F", "#656A74", "#9297A0", "#C4C7CC", "#F4F5F6"]
+        "displayName": "Warm Paper",
+        "tonalRamp": [
+          "oklch(15% 0.025 80)",
+          "oklch(26% 0.025 80)",
+          "oklch(38% 0.025 80)",
+          "oklch(49% 0.025 80)",
+          "oklch(61% 0.025 80)",
+          "oklch(72% 0.025 80)",
+          "oklch(84% 0.025 80)",
+          "oklch(95% 0.025 80)"
+        ]
       },
-      "raised-black": {
+      "ivory": {
         "role": "neutral",
-        "displayName": "Raised Black",
-        "canonical": "#0E0F13",
-        "tonalRamp": ["#08090C", "#16181D", "#2A2D34", "#444850", "#666B74", "#9398A0", "#C4C7CC", "#F4F5F6"]
+        "displayName": "Ivory",
+        "tonalRamp": [
+          "oklch(15% 0.025 80)",
+          "oklch(26% 0.025 80)",
+          "oklch(38% 0.025 80)",
+          "oklch(49% 0.025 80)",
+          "oklch(61% 0.025 80)",
+          "oklch(72% 0.025 80)",
+          "oklch(84% 0.025 80)",
+          "oklch(95% 0.025 80)"
+        ]
       },
-      "warm-cream": {
+      "plum": {
+        "role": "neutral",
+        "displayName": "Deep Plum",
+        "tonalRamp": [
+          "oklch(15% 0.02 320)",
+          "oklch(26% 0.02 320)",
+          "oklch(38% 0.02 320)",
+          "oklch(49% 0.02 320)",
+          "oklch(61% 0.02 320)",
+          "oklch(72% 0.02 320)",
+          "oklch(84% 0.02 320)",
+          "oklch(95% 0.02 320)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Reading Ink",
+        "tonalRamp": [
+          "oklch(15% 0.03 320)",
+          "oklch(26% 0.03 320)",
+          "oklch(38% 0.03 320)",
+          "oklch(49% 0.03 320)",
+          "oklch(61% 0.03 320)",
+          "oklch(72% 0.03 320)",
+          "oklch(84% 0.03 320)",
+          "oklch(95% 0.03 320)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "tonalRamp": [
+          "oklch(15% 0.025 340)",
+          "oklch(26% 0.025 340)",
+          "oklch(38% 0.025 340)",
+          "oklch(49% 0.025 340)",
+          "oklch(61% 0.025 340)",
+          "oklch(72% 0.025 340)",
+          "oklch(84% 0.025 340)",
+          "oklch(95% 0.025 340)"
+        ]
+      },
+      "carry": {
         "role": "primary",
-        "displayName": "Warm Cream",
-        "canonical": "#F7E7CA",
-        "tonalRamp": ["#2B1E0D", "#49341C", "#6C5130", "#927347", "#B99A69", "#D9BF91", "#F0DBB8", "#FFF7E9"]
+        "displayName": "Carry Amber",
+        "tonalRamp": [
+          "oklch(15% 0.09 55)",
+          "oklch(26% 0.09 55)",
+          "oklch(38% 0.09 55)",
+          "oklch(49% 0.09 55)",
+          "oklch(61% 0.09 55)",
+          "oklch(72% 0.09 55)",
+          "oklch(84% 0.09 55)",
+          "oklch(95% 0.09 55)"
+        ]
       },
-      "champagne": {
+      "mind": {
         "role": "primary",
-        "displayName": "Champagne",
-        "canonical": "#F0C88D",
-        "tonalRamp": ["#2B1B08", "#4A3013", "#704B22", "#986B35", "#BF8F51", "#DCAF73", "#F0CD9A", "#FFF1D5"]
+        "displayName": "Mind Violet",
+        "tonalRamp": [
+          "oklch(15% 0.09 305)",
+          "oklch(26% 0.09 305)",
+          "oklch(38% 0.09 305)",
+          "oklch(49% 0.09 305)",
+          "oklch(61% 0.09 305)",
+          "oklch(72% 0.09 305)",
+          "oklch(84% 0.09 305)",
+          "oklch(95% 0.09 305)"
+        ]
       },
-      "artifact-gold": {
-        "role": "secondary",
-        "displayName": "Artifact Gold",
-        "canonical": "#D99A4C",
-        "tonalRamp": ["#2B1805", "#4B2A0C", "#704216", "#985D24", "#BC7C38", "#D99A4C", "#EDBE83", "#FBE6C7"]
+      "action": {
+        "role": "primary",
+        "displayName": "Action Plum",
+        "tonalRamp": [
+          "oklch(15% 0.04 320)",
+          "oklch(26% 0.04 320)",
+          "oklch(38% 0.04 320)",
+          "oklch(49% 0.04 320)",
+          "oklch(61% 0.04 320)",
+          "oklch(72% 0.04 320)",
+          "oklch(84% 0.04 320)",
+          "oklch(95% 0.04 320)"
+        ]
       },
-      "emitted-rose": {
-        "role": "secondary",
-        "displayName": "Emitted Rose",
-        "canonical": "#DC638D",
-        "tonalRamp": ["#2B111B", "#4A1D2E", "#702D47", "#984161", "#BE567A", "#DC638D", "#EE9FB8", "#FBDDE8"]
-      },
-      "emitted-violet": {
-        "role": "secondary",
-        "displayName": "Emitted Violet",
-        "canonical": "#8A61E8",
-        "tonalRamp": ["#1B1233", "#2D2053", "#443376", "#5D489B", "#775CC1", "#8A61E8", "#B9A3F4", "#E5DCFC"]
-      },
-      "secondary-text": {
+      "rule": {
         "role": "neutral",
-        "displayName": "Secondary Text",
-        "canonical": "#BDB8B0",
-        "tonalRamp": ["#211F1C", "#383530", "#514E48", "#6D6962", "#8B8780", "#AAA69F", "#D0CDC8", "#F6F5F3"]
+        "displayName": "Paper Rule",
+        "tonalRamp": [
+          "oklch(15% 0.03 320)",
+          "oklch(26% 0.03 320)",
+          "oklch(38% 0.03 320)",
+          "oklch(49% 0.03 320)",
+          "oklch(61% 0.03 320)",
+          "oklch(72% 0.03 320)",
+          "oklch(84% 0.03 320)",
+          "oklch(95% 0.03 320)"
+        ]
+      },
+      "dark-text": {
+        "role": "neutral",
+        "displayName": "Dark Text",
+        "tonalRamp": [
+          "oklch(15% 0.025 65)",
+          "oklch(26% 0.025 65)",
+          "oklch(38% 0.025 65)",
+          "oklch(49% 0.025 65)",
+          "oklch(61% 0.025 65)",
+          "oklch(72% 0.025 65)",
+          "oklch(84% 0.025 65)",
+          "oklch(95% 0.025 65)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.03 320)",
+          "oklch(26% 0.03 320)",
+          "oklch(38% 0.03 320)",
+          "oklch(49% 0.03 320)",
+          "oklch(61% 0.03 320)",
+          "oklch(72% 0.03 320)",
+          "oklch(84% 0.03 320)",
+          "oklch(95% 0.03 320)"
+        ]
+      },
+      "dark-rule": {
+        "role": "neutral",
+        "displayName": "Dark Rule",
+        "tonalRamp": [
+          "oklch(15% 0.03 320)",
+          "oklch(26% 0.03 320)",
+          "oklch(38% 0.03 320)",
+          "oklch(49% 0.03 320)",
+          "oklch(61% 0.03 320)",
+          "oklch(72% 0.03 320)",
+          "oklch(84% 0.03 320)",
+          "oklch(95% 0.03 320)"
+        ]
       }
     },
     "typographyMeta": {
-      "display": { "displayName": "Editorial Display", "purpose": "Emotional promises and major closing statements." },
-      "body": { "displayName": "Interface Body", "purpose": "Readable explanations, navigation, and controls." },
-      "label": { "displayName": "Ceremonial Label", "purpose": "Small structural labels and section rules." }
+      "display": {
+        "displayName": "Living Page display",
+        "purpose": "Primary question and main landing titles in live Kaushan Script Regular, per Owner's brush-letterform correction."
+      },
+      "body": {
+        "displayName": "Reading text",
+        "purpose": "Clear practical explanations in Inter."
+      }
     },
-    "shadows": [
-      { "name": "device-lift", "value": "0 35px 65px rgba(0, 0, 0, 0.55), 0 8px 18px rgba(0, 0, 0, 0.42)", "purpose": "Directional physical lift for real product devices." },
-      { "name": "editorial-object", "value": "0 28px 58px rgba(0, 0, 0, 0.26)", "purpose": "Quiet depth beneath large artifact cards." }
-    ],
+    "shadows": [],
     "motion": [
-      { "name": "ease-luxe", "value": "cubic-bezier(.22,.61,.36,1)", "purpose": "Disclosure and section reveals up to 560ms and 20px." },
-      { "name": "seam-xfade", "value": "0.72s tail-to-head", "purpose": "Mathematically closes every 9.38s decorative loop before web encoding." }
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "One-time text/paint reveals and selected example changes."
+      },
+      {
+        "name": "settle",
+        "value": "750ms",
+        "purpose": "Hero text, 8px travel."
+      },
+      {
+        "name": "paint-in",
+        "value": "1000ms",
+        "purpose": "Hero action paint reveal."
+      },
+      {
+        "name": "process-paint",
+        "value": "900ms",
+        "purpose": "One-time process connectors, staggered 150ms."
+      },
+      {
+        "name": "page-turn",
+        "value": "420ms",
+        "purpose": "Selected example result, 6px travel."
+      },
+      {
+        "name": "paint-hover",
+        "value": "200ms ease",
+        "purpose": "Raster brightness response."
+      }
     ],
     "breakpoints": [
-      { "name": "tablet", "value": "768px" },
-      { "name": "desktop", "value": "1024px" },
-      { "name": "two-paths", "value": "1200px" }
+      {
+        "name": "compact",
+        "value": "1050px"
+      },
+      {
+        "name": "narrow",
+        "value": "380px"
+      },
+      {
+        "name": "wide",
+        "value": "1600px"
+      }
     ]
   },
   "components": [
     {
-      "name": "Primary Button",
+      "name": "Painted early-access action",
       "kind": "button",
-      "refersTo": "button-primary",
-      "description": "The single warm, launch-state action.",
-      "html": "<button class=\"ds-btn-primary\">GET EARLY ACCESS</button>",
-      "css": ".ds-btn-primary{min-height:50px;padding:12px 23px;border:1px solid transparent;border-radius:999px;background:#F7E7CA;color:#050608;font:600 14px/1 Inter,Arial,sans-serif;box-shadow:inset 0 1px rgba(255,255,255,.45),0 8px 24px rgba(217,154,76,.12);transition:background-color .18s ease,box-shadow .18s ease}.ds-btn-primary:hover{background:#FFF1D8;box-shadow:inset 0 1px rgba(255,255,255,.55),0 10px 30px rgba(217,154,76,.2)}.ds-btn-primary:focus-visible{outline:2px solid #F7E7CA;outline-offset:4px}"
+      "refersTo": "paint-button",
+      "description": "Live Cinzel action over the actual amber paint raster.",
+      "html": "<a class=\"ds-paint\" href=\"mailto:support@innerreset.life?subject=Early%20access\">Get early access</a>",
+      "css": ".ds-paint{isolation:isolate;position:relative;display:inline-flex;min-height:5rem;padding:1.25rem 2.5rem;align-items:center;justify-content:center;color:var(--plum,#221c24);font:500 clamp(1.05rem,1.8vw,1.5rem)/1.3 Cinzel,Georgia,serif;text-decoration:none;white-space:nowrap}.ds-paint::before{content:\"\";position:absolute;z-index:-1;inset:0 -1rem;background:url(\"/assets/living-page/paint-amber.webp\") center/100% 100% no-repeat;transition:filter 200ms ease}.ds-paint:hover::before{filter:brightness(1.06)}.ds-paint:active{transform:translateY(1px)}.ds-paint:focus-visible{outline:2px solid var(--mind,#70518a);outline-offset:5px;border-radius:2px}@media(prefers-reduced-motion:reduce){.ds-paint::before{transition:none}}@media(forced-colors:active){.ds-paint{border:1px solid ButtonText;color:ButtonText}.ds-paint::before{display:none}}"
     },
     {
-      "name": "Secondary Button",
-      "kind": "button",
-      "refersTo": "button-secondary",
-      "description": "A quiet outlined action subordinate to conversion.",
-      "html": "<button class=\"ds-btn-secondary\">SEE HOW IT WORKS</button>",
-      "css": ".ds-btn-secondary{min-height:50px;padding:12px 23px;border:1px solid rgba(240,200,141,.42);border-radius:999px;background:#050608;color:#F7E7CA;font:600 14px/1 Inter,Arial,sans-serif;transition:background-color .18s ease,border-color .18s ease}.ds-btn-secondary:hover{border-color:rgba(247,231,202,.75);background:rgba(240,200,141,.06)}.ds-btn-secondary:focus-visible{outline:2px solid #F7E7CA;outline-offset:4px}"
-    },
-    {
-      "name": "Editorial Artifact Card",
-      "kind": "card",
-      "refersTo": "editorial-card",
-      "description": "A large, quiet frame for one real experience and its device.",
-      "html": "<article class=\"ds-artifact-card\"><h3>Words to Carry</h3><p>For the moment you’re in.</p></article>",
-      "css": ".ds-artifact-card{min-height:280px;padding:44px;border:1px solid rgba(240,200,141,.17);border-radius:16px;background:#0E0F13;color:#EEEAE3;box-shadow:0 28px 58px rgba(0,0,0,.26)}.ds-artifact-card h3{margin:0;color:#F7E7CA;font:600 38px/1.05 Fraunces,Georgia,serif;letter-spacing:-.03em}.ds-artifact-card p{color:#F0C88D;font:600 12px/1.5 Inter,Arial,sans-serif}"
-    },
-    {
-      "name": "Primary Navigation",
-      "kind": "nav",
-      "description": "Small warm navigation that stays visually secondary to the page thesis.",
-      "html": "<nav class=\"ds-nav\"><a href=\"#\">HOW IT WORKS</a><a href=\"#\">EXPERIENCES</a></nav>",
-      "css": ".ds-nav{display:flex;gap:28px;align-items:center;background:#050608;color:#D4D0C9;font:500 13px/1 Inter,Arial,sans-serif}.ds-nav a{color:inherit;text-decoration:none;transition:color .18s ease}.ds-nav a:hover{color:#F0C88D}.ds-nav a:focus-visible{outline:2px solid #F7E7CA;outline-offset:4px}"
-    },
-    {
-      "name": "Device Frame",
+      "name": "Experience choices",
       "kind": "custom",
-      "description": "A thin dark frame and directional shadow for real product screenshots.",
-      "html": "<div class=\"ds-device\"><div class=\"ds-device-screen\"></div></div>",
-      "css": ".ds-device{width:180px;aspect-ratio:393/852;padding:2px;border-radius:48px;background:linear-gradient(145deg,#323238,#090A0D 30%,#333137 78%,#090A0D);box-shadow:0 35px 65px rgba(0,0,0,.55),0 8px 18px rgba(0,0,0,.42)}.ds-device-screen{width:100%;height:100%;border-radius:46px;background:radial-gradient(circle at 50% 35%,rgba(217,154,76,.28),transparent 30%),#090A0D}"
+      "refersTo": "experience-tab",
+      "description": "Anchor baseline; production JavaScript enhances these into keyboard-operable tabs.",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"Choose an experience\"><a class=\"ds-tab ds-selected\" href=\"#carry-example\">Words to Carry</a><a class=\"ds-tab ds-mind\" href=\"#mind-example\">A Mind to Build</a></nav>",
+      "css": ".ds-tabs{display:flex;gap:2.5rem;border-bottom:1px solid var(--rule,#4c3c4d30)}.ds-tab{display:inline-flex;min-height:3.5rem;align-items:center;font:500 1.15rem/1.65 Cinzel,Georgia,serif;color:var(--ink,#4c3c4d);border-bottom:2px solid transparent;text-decoration:none}.ds-tab:hover{color:var(--carry,#94562e)}.ds-selected{color:var(--carry,#94562e);border-color:var(--carry,#94562e)}.ds-mind.ds-selected{color:var(--mind,#70518a);border-color:var(--mind,#70518a)}.ds-tab:focus-visible{outline:2px solid var(--mind,#70518a);outline-offset:5px;border-radius:2px}@media(max-width:1050px){.ds-tabs{gap:1.3rem}.ds-tab{font-size:.95rem}}"
+    },
+    {
+      "name": "Primary navigation",
+      "kind": "nav",
+      "description": "Quiet sentence-case links with generous touch areas; menu logic remains in main.js.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary navigation\"><a href=\"#experiences\">The experience</a><a href=\"#how-it-works\">How it works</a><a href=\"#our-story\">Our story</a><a href=\"#early-access\">Early access</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:clamp(1rem,2.5vw,2.7rem);flex-wrap:wrap}.ds-nav a{display:inline-flex;min-height:44px;align-items:center;font:.875rem/1.65 Inter,Arial,sans-serif;color:var(--ink,#4c3c4d);text-decoration:none;text-underline-offset:.4em;text-decoration-thickness:1px}.ds-nav a:hover{text-decoration:underline;color:var(--carry,#94562e)}.ds-nav a:focus-visible{outline:2px solid var(--mind,#70518a);outline-offset:5px;border-radius:2px}"
+    },
+    {
+      "name": "Editorial text link",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Underlined navigation embedded in open editorial content.",
+      "html": "<a class=\"ds-link\" href=\"#your-library\">See what stays with you</a>",
+      "css": ".ds-link{display:inline-flex;gap:.4rem;align-items:center;min-height:44px;font:.875rem/1.65 Inter,Arial,sans-serif;color:var(--ink,#4c3c4d);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.35em}.ds-link:hover{color:var(--carry,#94562e);text-decoration-thickness:2px}.ds-link:focus-visible{outline:2px solid var(--mind,#70518a);outline-offset:5px;border-radius:2px}"
+    },
+    {
+      "name": "Native FAQ",
+      "kind": "custom",
+      "description": "Native disclosure, fine rules, and amber open state.",
+      "html": "<div class=\"ds-faq\"><details><summary>Can I speak or write?</summary><p>You can speak or type what is on your mind.</p></details></div>",
+      "css": ".ds-faq{font-family:Inter,Arial,sans-serif;color:var(--ink,#4c3c4d)}.ds-faq details{border-bottom:1px solid var(--rule,#4c3c4d30);border-top:1px solid var(--rule,#4c3c4d30)}.ds-faq summary{position:relative;padding:1.25rem 2rem 1.25rem 0;cursor:pointer;list-style:disclosure-closed;font-size:.95rem;line-height:1.6}.ds-faq details[open] summary{list-style:disclosure-open;color:var(--carry,#94562e)}.ds-faq summary::marker{font-size:.75em;color:var(--carry,#94562e)}.ds-faq details>p{margin:0;padding:0 0 1.5rem;font-size:.87rem;line-height:1.85}.ds-faq summary:focus-visible{outline:2px solid var(--mind,#70518a);outline-offset:5px;border-radius:2px}"
     }
   ],
   "narrative": {
-    "northStar": "The Private Resonance Chamber",
-    "overview": "InnerReset inhabits a near-black editorial space where a person’s words feel held, shaped, and returned as an object. Warm metallic typography and rules supply human ceremony; ember, rose, and violet appear only as emitted energy around real artifacts and the canonical mark. The system is intimate and cinematic without becoming spa-like, mystical, or technical-dashboard chrome. Quiet negative space makes the few luminous moments feel consequential.",
+    "northStar": "The Living Page",
+    "overview": "InnerReset is a warm, matte page for private expression, finished personal audio, and words worth returning to. Paper, painted marks, whole illustrated figures, and authored typography make the experience human and quietly deliberate.\n\nWarm paper and ivory support reading; deep plum gives the library and closing chapters a more intimate register. The exact comet-and-three-stars mark anchors the identity. Hoshi and Tiamat receive equal care and represent all experiences. This system replaces the previous cinematic black and ring identity under the Owner's approved identity replacement.",
     "keyCharacteristics": [
-      "Near-black fields with warm, readable foregrounds",
-      "Real product screens treated as private artifacts",
-      "Editorial serif scale paired with precise sans-serif controls",
-      "Light emitted from the mark and artifact media, never flat neon decoration",
-      "Hairline structure, restrained depth, and deliberate quiet"
+      "Warm paper and deep-plum chapters",
+      "Brush-written Kaushan Script titles, Cinzel supporting type and clear Inter reading text",
+      "Real paint rasters beneath live, accessible language",
+      "Whole, static Hoshi and Tiamat portraits",
+      "Open editorial groups, fine rules, and restrained one-time motion"
     ],
     "rules": [
-      { "name": "The Emitted Spectrum Rule", "body": "Rose and violet describe energy around a real artifact; they never become freestanding decorative UI color.", "section": "colors" },
-      { "name": "The Serif Has Weight Rule", "body": "Fraunces is reserved for promises, artifact names, and meaningful structure; controls and explanations stay sans-serif.", "section": "typography" },
-      { "name": "The Artifact Depth Rule", "body": "Objects may lift; ordinary copy and navigation remain on the page plane.", "section": "elevation" }
+      {
+        "name": "The Grounded Paint Rule",
+        "body": "Use the supplied paint rasters as material; retain a readable solid text layer beneath any paint texture.",
+        "section": "colors"
+      },
+      {
+        "name": "The Live Words Rule",
+        "body": "Headings and action labels remain real text. No duplicated glyph layers, rasterized words or JavaScript are required for title rendering.",
+        "section": "typography"
+      },
+      {
+        "name": "Brush-written titles",
+        "body": "Nine main landing headings use self-hosted Kaushan Script Regular 400, zero added tracking and no synthetic bold. Real brush letterforms replace the rejected textured-Cinzel approach. Titles use solid plum, Carry amber, Mind violet or ivory on plum, with system text in forced colors. Cinzel remains for wordmark, controls and secondary headings; Inter remains for body. No decorative text clones or texture filters.",
+        "section": "typography"
+      },
+      {
+        "name": "The Matte Page Rule",
+        "body": "Keep ordinary surfaces flat; use the approved material imagery and spacing to establish depth.",
+        "section": "elevation"
+      }
     ],
     "dos": [
-      "Do use the canonical mark by scaling or glowing the unchanged source image.",
-      "Do keep real product screenshots legible and visually dominant over atmosphere.",
-      "Do maintain secondary reading text at or above the established contrast floor.",
-      "Do pace each page with dense artifact moments followed by genuine quiet."
+      "**Do** preserve the exact comet mark and whole static portrait artwork.",
+      "**Do** keep real text readable beneath decorative paint.",
+      "**Do** give both experiences equal care and treat gender as representation, never feature routing.",
+      "**Do** preserve keyboard access, visible focus, reduced motion, and readable no-JavaScript content.",
+      "**Do** keep examples explicitly illustrative and early-access actions truthful."
     ],
     "donts": [
-      "Don't flatten ember, rose, or violet into generic neon UI accents.",
-      "Don't introduce botanical, beige, social, gamified, or dashboard visual grammar.",
-      "Don't use generated or reconstructed app UI in place of real screens.",
-      "Don't animate the logo’s geometry, ring count, rotation, or proportions."
+      "**Don't** reintroduce the superseded ring mark or cinematic black identity.",
+      "**Don't** replace supplied paint with invented CSS illustrations.",
+      "**Don't** fabricate native app screens, testimonials, store availability, or playable audio.",
+      "**Don't** distort portraits, animate their body parts, or introduce looping or autoplay audio."
     ]
   }
 }

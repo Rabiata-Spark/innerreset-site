@@ -2,3 +2,5 @@
 node_modules/
 scripts/node_modules/
 .ai-team/
+.impeccable/mocks/
+.impeccable/production/

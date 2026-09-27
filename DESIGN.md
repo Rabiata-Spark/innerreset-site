@@ -1,179 +1,193 @@
 ---
 name: InnerReset
-description: Cinematic editorial space for turning private expression into a personal artifact.
+description: A Living Page for private expression and personal audio worth keeping.
 colors:
-  inner-black: "#050608"
-  raised-black: "#0E0F13"
-  warm-cream: "#F7E7CA"
-  champagne: "#F0C88D"
-  artifact-gold: "#D99A4C"
-  emitted-rose: "#DC638D"
-  emitted-violet: "#8A61E8"
-  primary-text: "#EEEAE3"
-  secondary-text: "#BDB8B0"
+  paper: "#f7f0e6"
+  ivory: "#fff9f0"
+  plum: "#221c24"
+  ink: "#4c3c4d"
+  muted: "#71616a"
+  carry: "#94562e"
+  mind: "#70518a"
+  action: "#443447"
+  rule: "#4c3c4d30"
+  dark-text: "#f4e9df"
+  dark-muted: "#c4b3c3"
+  dark-rule: "#c4b3c344"
 typography:
   display:
-    fontFamily: "Fraunces, Georgia, serif"
-    fontSize: "clamp(2.6rem, 11.6vw, 5.5rem)"
-    fontWeight: 600
-    lineHeight: 0.98
-    letterSpacing: "-0.03em"
+    fontFamily: "Kaushan Script, Georgia, serif"
+    fontSize: "clamp(2.8rem, 4.25vw, 4.25rem)"
+    fontWeight: 400
+    lineHeight: 1.12
+    letterSpacing: "0"
+  headline:
+    fontFamily: "Kaushan Script, Georgia, serif"
+    fontSize: "clamp(2rem, 3.4vw, 3.3rem)"
+    fontWeight: 400
+    lineHeight: 1.2
+    letterSpacing: "0"
   body:
     fontFamily: "Inter, Arial, sans-serif"
     fontSize: "1rem"
     fontWeight: 400
-    lineHeight: 1.6
-  label:
+    lineHeight: 1.65
+  navigation:
     fontFamily: "Inter, Arial, sans-serif"
-    fontSize: "0.75rem"
-    fontWeight: 600
-    lineHeight: 1
-    letterSpacing: "0.18em"
+    fontSize: "0.875rem"
+    fontWeight: 400
+  tab:
+    fontFamily: "Cinzel, Georgia, serif"
+    fontSize: "1.15rem"
+    fontWeight: 500
+    lineHeight: 1.65
 rounded:
-  editorial-object: "16px"
-  device: "48px"
-  control: "999px"
+  focus: "2px"
 spacing:
-  compact: "12px"
-  component: "24px"
-  gutter: "clamp(1.25rem, 4vw, 4rem)"
-  section: "clamp(4rem, 12vw, 9rem)"
+  small: "0.5rem"
+  group: "1rem"
+  component: "1.5rem"
+  column: "2rem"
+  gutter: "clamp(1.25rem, 4.5vw, 5rem)"
+  section: "clamp(4rem, 7.5vw, 7.5rem)"
 components:
-  button-primary:
-    backgroundColor: "{colors.warm-cream}"
-    textColor: "{colors.inner-black}"
-    typography: "{typography.body}"
-    rounded: "{rounded.control}"
-    padding: "12px 22.4px"
-    height: "50px"
-  button-secondary:
+  paint-button:
     backgroundColor: "transparent"
-    textColor: "{colors.warm-cream}"
-    typography: "{typography.body}"
-    rounded: "{rounded.control}"
-    padding: "12px 22.4px"
-    height: "50px"
-  editorial-card:
-    backgroundColor: "{colors.raised-black}"
-    textColor: "{colors.primary-text}"
-    rounded: "{rounded.editorial-object}"
-    padding: "clamp(1.75rem, 6vw, 2.7rem)"
+    textColor: "{colors.plum}"
+    padding: "1.25rem 2.5rem"
+  experience-tab:
+    backgroundColor: "transparent"
+    textColor: "{colors.ink}"
+    typography: "{typography.tab}"
+  experience-tab-carry-selected:
+    textColor: "{colors.carry}"
+  experience-tab-mind-selected:
+    textColor: "{colors.mind}"
+  text-link:
+    textColor: "{colors.ink}"
+    typography: "{typography.navigation}"
+  menu-toggle:
+    backgroundColor: "transparent"
+    textColor: "{colors.ink}"
+    padding: "0.4rem 0.9rem"
 ---
 
 # Design System: InnerReset
 
 ## Overview
 
-**Creative North Star: "The Private Resonance Chamber"**
+**Creative North Star: "The Living Page"**
 
-InnerReset inhabits a near-black editorial space where a person’s words feel held, shaped, and returned as an object. Warm metallic typography and rules supply human ceremony; ember, rose, and violet appear only as emitted energy around real artifacts and the canonical mark.
+InnerReset is a warm, matte page for private expression, finished personal audio, and words worth returning to. Paper, painted marks, whole illustrated figures, and authored typography make the experience human and quietly deliberate.
 
-The system is intimate and cinematic without becoming spa-like, mystical, or technical-dashboard chrome. Quiet negative space makes the few luminous moments feel consequential.
+Warm paper and ivory support reading; deep plum gives the library and closing chapters a more intimate register. The exact comet-and-three-stars mark anchors the identity. Hoshi and Tiamat receive equal care and represent all experiences. This system replaces the previous cinematic black and ring identity under the Owner's approved identity replacement.
 
 **Key Characteristics:**
 
-- Near-black fields with warm, readable foregrounds
-- Real product screens treated as private artifacts
-- Editorial serif scale paired with precise sans-serif controls
-- Light emitted from the mark and artifact media, never flat neon decoration
-- Hairline structure, restrained depth, and deliberate quiet
+- Warm paper and deep-plum chapters
+- Brush-written Kaushan Script titles, Cinzel supporting type and clear Inter reading text
+- Real paint rasters beneath live, accessible language
+- Whole, static Hoshi and Tiamat portraits
+- Open editorial groups, fine rules, and restrained one-time motion
 
 ## Colors
 
-Black owns the field; warm cream and champagne carry language and action, while amber, rose, and violet are atmospheric light rather than interface fills.
+Warm neutral grounds hold amber Carry and violet Mind accents without turning the page into a glowing interface.
 
 ### Primary
 
-- **Warm Cream:** The clearest headline and primary-action voice.
-- **Champagne:** Labels, lines, and quiet ceremonial accents.
-- **Artifact Gold:** Small points of emphasis and warm emitted light.
-
-### Secondary
-
-- **Ember / Rose / Violet Light:** CSS gradient light around artifact imagery. These hues do not become flat buttons, panels, or body copy.
+- **Action Plum:** Headings and primary language on paper.
+- **Carry Amber:** Carry titles, selected Carry tabs, and warm link feedback.
+- **Mind Violet:** Mind titles, selected Mind tabs, and keyboard focus.
 
 ### Neutral
 
-- **Inner Black:** Dominant page field.
-- **Raised Black:** Editorial objects that need a barely perceptible surface change.
-- **Primary Text:** High-contrast reading copy.
-- **Secondary Text:** The minimum body-copy gray against black; never dim it further for substantive text.
+- **Warm Paper / Ivory:** Opening and footer ground / main reading ground.
+- **Deep Plum:** Dark chapter background and painted-action text.
+- **Reading Ink / Muted Ink:** Main copy / secondary explanations.
+- **Paper Rule:** Quiet dividers separating meaning without enclosing it.
+- **Dark Text / Dark Muted / Dark Rule:** The corresponding reading and divider roles within plum chapters.
 
-**The Emitted Spectrum Rule.** Rose and violet describe energy around a real artifact; they never become freestanding decorative UI color.
+**The Grounded Paint Rule.** Use the supplied paint rasters as material; retain a readable solid text layer beneath any paint texture.
 
 ## Typography
 
-**Display Font:** Fraunces (with Georgia fallback)  
-**Body Font:** Inter (with Arial fallback)
+**Display Font:** Kaushan Script Regular, with Georgia fallback.
+**Supporting Serif:** Cinzel Medium for the wordmark, controls and secondary headings.
+**Body Font:** Inter, with Arial fallback.
 
-**Character:** The display face makes emotional statements feel authored and worth pausing over. The sans-serif remains quiet, exact, and highly readable in navigation, explanations, and actions.
+**Character:** Kaushan Script gives the nine main landing titles actual brush-written letterforms, with pressure-shaped strokes and a naturally uneven baseline. This is the Owner's explicit website-title correction on 2026-09-27; it supersedes the earlier textured-Cinzel title treatment, not the native app's identity. Cinzel retains the wordmark, controls and secondary headings. Inter handles explanations, navigation and practical details. All fonts are locally hosted.
 
 ### Hierarchy
 
-- **Display** (600, responsive 2.6–5.5rem, 0.98): Hero and closing promises only.
-- **Headline** (600, responsive 2.35–5rem, 1.02): Section-scale emotional statements.
-- **Title** (600, responsive 1.375–2.6875rem, 1.1): Experiences and ordered moves.
-- **Body** (400, 1rem, 1.6–1.75): Supporting copy, held to roughly 65–75 characters per line.
-- **Label** (600, 0.625–0.75rem, tracked uppercase): Navigation details and required section dividers.
+- **Display:** Fluid hero question; closing statements use a related responsive scale.
+- **Headline:** Section statements with balanced wrapping and generous room.
+- **Title:** Kaushan Script for the two main experience titles; Cinzel for smaller artifact names and process structure.
+- **Body:** Inter, usually at the base size or slightly below it, with contextual line heights up to 1.85. General paragraphs cap at 70 characters; narrower explanatory columns shorten further.
+- **Navigation:** Quiet sentence-case Inter, with touch area supplied independently of font size.
+- **Tabs:** Cinzel identifies the two experience choices.
 
-**The Serif Has Weight Rule.** Fraunces is reserved for promises, artifact names, and meaningful structure; controls and explanations stay sans-serif.
+**The Live Words Rule.** Headings and action labels remain real text. No duplicated glyph layers, rasterized words or JavaScript are required for title rendering.
+
+**Brush-written titles.** Use Kaushan Script's real 400 weight, zero added tracking and no synthetic bold. The letterform itself supplies the brush character: no multicolored text overlay, clipping texture or filter. Keep solid plum on paper, amber for Carry, violet for Mind and ivory on plum; forced colors uses system text. Existing responsive sizes and authored breaks remain, with natural wrapping for the new face. The unmodified font and OFL license are bundled under `assets/fonts`; provenance is in `KaushanScript-source.json`.
 
 ## Layout
 
-The global shell is fluid with a 1440px maximum and gutters from 20px to 64px. At 1024px the hero becomes a 44/56 editorial split and the four moves form one row; at 1200px the six-screen strip becomes the two-path composition. Experience cards switch through their own container, not the viewport. Mobile deliberately overlays one dominant phone and portal into the first viewport, then uses compact move rows, stacked experiences, and a contained scroll-snap screen strip.
+A fluid shell stops at 92rem; gutters and section intervals use the frontmatter scales. Open columns and generous changes in spacing organize the story. Fine rules separate steps, examples, library entries, and FAQ answers. Ordinary content is not wrapped in ornamental cards.
 
-Section boundaries are warm hairlines with large vertical intervals. Tight spacing belongs inside a copy group; generous space separates changes in meaning. Wide content never creates page-level horizontal overflow.
+The root landing composition is documented in `.impeccable/surfaces/index-html.md`: a centered question, equal illustrated paths, and one clear early-access action. This specific composition is not a requirement for every future surface. Preserve the priority of question, experience labels, and primary action when adapting it.
+
+At 1050px and below, major editorial columns stack, the hero retains two parallel paths with the action beneath, the process becomes two columns, and navigation becomes an enhanced disclosure. At 380px and below, compact type and process arrangements retain the same hierarchy. The supported minimum viewport is 320px. Wide legal tables scroll inside their own container; page-level horizontal scrolling is not part of the system. A 1600px adjustment increases hero portrait room.
 
 ## Elevation & Depth
 
-Depth is a hybrid of near-black tonal layering, offset black shadows beneath physical device frames, and colored atmospheric light behind media. Wide, soft shadows make screenshots feel held above the field; zero-offset colored glow is never used as structural elevation.
+Depth comes from actual paper and paint imagery, tonal chapter changes, and overlapping illustration, not box shadows or luminous halos. Text, links, and navigation sit on the page plane.
 
-**The Artifact Depth Rule.** Objects may lift; ordinary copy and navigation remain on the page plane.
+**The Matte Page Rule.** Keep ordinary surfaces flat; use the approved material imagery and spacing to establish depth.
 
 ## Shapes
 
-Editorial cards use restrained 16px corners. Phone frames follow the screenshot silhouette at approximately 48px. Pill geometry is reserved for compact actions. Circular forms belong to the canonical mark and motion motifs; they are never substituted for the mark itself.
+The exact comet-and-three-stars mark is `assets/brand/innerreset-mark.png`; scale it proportionally without redrawing, recoloring, or distorting it. Whole portraits use contain fitting and preserve heads and hands. Male and female figures alternate across the current landing sequence M/F/M/F, with equal optical care and no gender-based experience routing.
+
+Primary actions inherit the irregular silhouette of the amber paint raster. Editorial groups are open and largely square, with hairline separators. The small focus radius exists for keyboard outlines, not as a general card treatment.
 
 ## Components
 
-### Buttons
+### Painted action
 
-- **Shape:** Compact pill with a 50px minimum touch height.
-- **Primary:** Warm cream fill, inner-black text, and a subtle internal highlight.
-- **Secondary:** Transparent black field, fine champagne border, and warm text.
-- **Hover / Focus:** Luminance and border clarity shift without scale jumps; keyboard focus is a 2px warm-cream outline with 4px offset.
+A live Cinzel label sits over `assets/living-page/paint-amber.webp`, rendered by a decorative pseudo-element. Base minimum height is 5rem; the hero enlarges the action to support its priority, then adapts at the compact breakpoint. Hover brightens the raster over 200ms; press moves the link down 1px. The destination is an actual early-access email link. Forced colors replaces the paint with a visible border and system text.
 
-### Cards / Containers
+### Experience choices
 
-- **Corner Style:** Editorial object radius, not oversized dashboard softness.
-- **Background:** Raised black with one low-opacity warm border.
-- **Shadow Strategy:** Offset ambient depth, never a competing border-plus-halo stack.
-- **Internal Padding:** Responsive from 28px to 44px.
+Two open, serif choices sit on a shared hairline. Selected Carry uses amber; selected Mind uses violet, with a 2px bottom rule. JavaScript supplies tablist/tab/tabpanel semantics, roving focus, Left/Right/Home/End selection, and visible-panel switching. Without JavaScript, these are ordinary anchors and both examples remain readable. The examples are illustrative semantic content, not reconstructed app screens or playable audio.
 
-### Navigation
+### Navigation and text links
 
-Navigation is small warm sans-serif text on the black field. It remains structurally quiet until scrolling, when a translucent black surface and hairline appear. Mobile uses a semantic disclosure with 48px rows and an explicit early-access action.
+The exact mark and live InnerReset wordmark lead a quiet text navigation. Links have at least 44px interaction height. Hover adds or strengthens an underline and may use Carry amber. Global keyboard focus uses a 2px Mind outline with 5px offset.
 
-### Device Composition
+Below the compact breakpoint, the JavaScript menu updates expanded state; Escape closes it and restores focus, while selecting a section moves focus to that section. Without JavaScript the navigation stays visible. A skip link exposes the main content directly.
 
-Real 393×852 product screenshots sit in thin dark CSS frames with a directional black shadow. Rear devices may rotate slightly and reduce luminance; the front device remains upright, sharp, and dominant.
+### FAQ
 
-### Motion Field
+Native details and summary provide independently openable answers. Fine top/bottom rules, browser disclosure markers, and amber open-state text carry the state. Keep the control semantic; no replacement glyph icon is needed.
 
-Every motion slot is the same semantic figure pattern: an AVIF/WebP/JPG poster, a CSS fallback, and manifest-driven WebM/MP4 video attached near the viewport. Motion is muted, seamless, pause-offscreen, and completely absent under reduced-motion preferences. Reveals travel no more than 20px over at most 560ms; scroll timelines enhance them where supported and IntersectionObserver supplies the fallback.
+### Material and motion
+
+Use the actual light/dark page rasters and amber/violet/ivory paint rasters. Whole portraits stay static. The hero text settles once over 750ms, the action paint reveals once over 1000ms, process paint reveals once over 900ms with short stagger, and an example switch settles over 420ms. The shared easing is recorded in the sidecar. Reduced motion disables animation, transition, and smooth scrolling; no-JavaScript content remains visible. No looping artwork or autoplay audio belongs to the delivered experience.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** use the canonical mark by scaling or glowing the unchanged source image.
-- **Do** keep real product screenshots legible and visually dominant over atmosphere.
-- **Do** maintain secondary reading text at or above the established contrast floor.
-- **Do** pace each page with dense artifact moments followed by genuine quiet.
+- **Do** preserve the exact comet mark and whole static portrait artwork.
+- **Do** keep real text readable beneath decorative paint.
+- **Do** give both experiences equal care and treat gender as representation, never feature routing.
+- **Do** preserve keyboard access, visible focus, reduced motion, and readable no-JavaScript content.
+- **Do** keep examples explicitly illustrative and early-access actions truthful.
 
 ### Don't:
 
-- **Don't** flatten ember, rose, or violet into generic neon UI accents.
-- **Don't** introduce botanical, beige, social, gamified, or dashboard visual grammar.
-- **Don't** use generated or reconstructed app UI in place of real screens.
-- **Don't** animate the logo’s geometry, ring count, rotation, or proportions.
+- **Don't** reintroduce the superseded ring mark or cinematic black identity.
+- **Don't** replace supplied paint with invented CSS illustrations.
+- **Don't** fabricate native app screens, testimonials, store availability, or playable audio.
+- **Don't** distort portraits, animate their body parts, or introduce looping or autoplay audio.

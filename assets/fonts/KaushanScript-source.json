@@ -1,0 +1,15 @@
+{
+  "family": "Kaushan Script",
+  "style": "Regular",
+  "weight": 400,
+  "source": "https://github.com/google/fonts/tree/main/ofl/kaushanscript",
+  "download": "https://raw.githubusercontent.com/google/fonts/main/ofl/kaushanscript/KaushanScript-Regular.ttf",
+  "license": "SIL Open Font License 1.1",
+  "licenseFile": "KaushanScript-OFL.txt",
+  "file": "KaushanScript-Regular.ttf",
+  "bytes": 210672,
+  "sha256": "6d8d379d9bba98178bee476d68114c8f83812c18005ecccf679e70f60e03d8f6",
+  "modified": false,
+  "retrieved": "2026-09-27",
+  "use": "Owner-requested real brush-written letterforms for nine main website titles; body, controls and wordmark retain existing fonts."
+}

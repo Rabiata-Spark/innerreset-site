@@ -2,6 +2,9 @@
 
 *.png binary
 *.woff2 binary
+*.ttf binary
+# Keep upstream font licenses byte-for-byte, including their original whitespace.
+assets/fonts/*-OFL.txt -text whitespace=-blank-at-eol
 *.webm binary
 *.mp4 binary
 *.webp binary

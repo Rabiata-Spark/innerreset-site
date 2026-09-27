@@ -38,11 +38,11 @@ The product has one Create entry point and two flagship experiences: Words to Ca
 
 ## Brand Commitments
 
-The product name is InnerReset. The canonical mark at `assets/brand/innerreset-mark.png` must only be scaled or glowed, never redrawn, recolored, distorted, or substituted. Language is concise, human, controlled, and emotionally literate.
+The product name is InnerReset. The Owner's September 2026 website overhaul adopts the app's Living Page identity: the exact comet-and-three-stars mark from the app replaces the legacy rings at `assets/brand/innerreset-mark.png`. Never redraw, recolor, or distort the source mark. Language is concise, human, controlled, and emotionally literate. Male Hoshi and female Tiamat artwork alternate with equal care; both represent both experiences, never gender-based feature routing.
 
 ## Evidence on Hand
 
-- Thirteen real product screenshots at `assets/screens/`.
+- Thirteen historical product screenshots at `assets/screens/`; these do not establish the current Living Page interface and are not presented as current in the rebuilt site.
 - The canonical brand mark at `assets/brand/innerreset-mark.png`.
 - No permissioned testimonials, app-store links, or active social accounts are available and none may be fabricated.
 
