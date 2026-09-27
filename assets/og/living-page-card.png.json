@@ -1,0 +1,10 @@
+{
+  "kind": "live-page-screenshot-export",
+  "source": ".dev/qa/desktop-review-2.png",
+  "capture_viewport": [1536, 1024],
+  "capture_pixel_dimensions": [1521, 1014],
+  "source_region": {"left": 0, "top": 0, "width": 1506, "height": 775},
+  "output_dimensions": [1200, 630],
+  "method": "Aspect-preserving contain resize on the page paper color. Removes browser scrollbar and includes the complete opening composition.",
+  "generation_note": "This is the real local page, not generated UI. Individual artwork provenance is recorded in assets/living-page/manifest.json."
+}

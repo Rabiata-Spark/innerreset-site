@@ -1,0 +1,469 @@
+{
+  "approved_reference": ".impeccable/mocks/2026-09-27/B-two-ways.png",
+  "produce": [
+    {
+      "id": "hoshi-offering",
+      "source_crop": ".impeccable/production/2026-09-27/hoshi-offering-clean.png",
+      "source_sha256": "2250d50994c169adcf24da059fdc63fa410d96f1e399e24befb82417bd32c4c9",
+      "output_path": "assets/living-page/hoshi-offering.webp",
+      "output_sha256": "10dab3e29d0813dcbf61710af0cfd40386806ac80851bc953b3db9c6dedf71e5",
+      "strategy": "Parent-generated ChatGPT source; direct aspect-preserving resize/compression after paper-background alpha inspection.",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1000,
+        667
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 228472,
+      "deviations": [],
+      "qa_status": "accepted",
+      "qa_notes": "Source and outputs inspected on #F7F0E6; parent verified canvas identity. No background halo or manual pixel cleanup.",
+      "prompt_reference": ".impeccable/production/2026-09-27/prompts.json",
+      "prompt_storage": "assets/living-page/hoshi-offering.webp.json",
+      "prompt_storage_note": "WebP is unsupported by embed-prompt metadata embedding; prompt is preserved in the adjacent JSON sidecar and source PNG metadata."
+    },
+    {
+      "id": "hoshi-offering-600",
+      "source_crop": ".impeccable/production/2026-09-27/hoshi-offering-clean.png",
+      "source_sha256": "2250d50994c169adcf24da059fdc63fa410d96f1e399e24befb82417bd32c4c9",
+      "output_path": "assets/living-page/hoshi-offering-600.webp",
+      "output_sha256": "2003a26bbd4e3cd588d0394e61a23bcd3bbbe041c83cff62939e55fed2ba074e",
+      "strategy": "Parent-generated ChatGPT source; direct aspect-preserving resize/compression after paper-background alpha inspection.",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        600,
+        400
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 100074,
+      "deviations": [],
+      "qa_status": "accepted",
+      "qa_notes": "Source and outputs inspected on #F7F0E6; parent verified canvas identity. No background halo or manual pixel cleanup.",
+      "prompt_reference": ".impeccable/production/2026-09-27/prompts.json",
+      "prompt_storage": "assets/living-page/hoshi-offering-600.webp.json",
+      "prompt_storage_note": "WebP is unsupported by embed-prompt metadata embedding; prompt is preserved in the adjacent JSON sidecar and source PNG metadata."
+    },
+    {
+      "id": "hoshi-listening",
+      "source_crop": ".impeccable/production/2026-09-27/hoshi-listening.png",
+      "source_sha256": "4a75908d893b2d3361fc8b1338fd4fda94ee223c4265f2c6705963b211c46fb7",
+      "output_path": "assets/living-page/hoshi-listening.webp",
+      "output_sha256": "45246cecc3d71a0d38c365062c2dbc58f1f0c473f69ba92d498593ba07952838",
+      "strategy": "Parent-generated ChatGPT source; direct aspect-preserving resize/compression after paper-background alpha inspection.",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1000,
+        667
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 267266,
+      "deviations": [],
+      "qa_status": "accepted",
+      "qa_notes": "Source and outputs inspected on #F7F0E6 and #221C24. No background halo or manual pixel cleanup.",
+      "prompt_reference": ".impeccable/production/2026-09-27/prompts.json",
+      "prompt_storage": "assets/living-page/hoshi-listening.webp.json",
+      "prompt_storage_note": "WebP is unsupported by embed-prompt metadata embedding; prompt is preserved in the adjacent JSON sidecar and source PNG metadata."
+    },
+    {
+      "id": "hoshi-listening-600",
+      "source_crop": ".impeccable/production/2026-09-27/hoshi-listening.png",
+      "source_sha256": "4a75908d893b2d3361fc8b1338fd4fda94ee223c4265f2c6705963b211c46fb7",
+      "output_path": "assets/living-page/hoshi-listening-600.webp",
+      "output_sha256": "7e644fe993efe042d76384d6a0d024c1bfc336f8cb0ef37176d4576da57c7b6c",
+      "strategy": "Parent-generated ChatGPT source; direct aspect-preserving resize/compression after paper-background alpha inspection.",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        600,
+        400
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 108118,
+      "deviations": [],
+      "qa_status": "accepted",
+      "qa_notes": "Source and outputs inspected on #F7F0E6 and #221C24. No background halo or manual pixel cleanup.",
+      "prompt_reference": ".impeccable/production/2026-09-27/prompts.json",
+      "prompt_storage": "assets/living-page/hoshi-listening-600.webp.json",
+      "prompt_storage_note": "WebP is unsupported by embed-prompt metadata embedding; prompt is preserved in the adjacent JSON sidecar and source PNG metadata."
+    }
+  ],
+  "direct": [
+    {
+      "id": "tiamat-thinking",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPHeroMind.imageset/light.png",
+      "source_sha256": "94bbd64df7e9d86b4e1e024417586f6d380d3cdfe1f8443c5735d42709ffc05b",
+      "output_path": "assets/living-page/tiamat-thinking.webp",
+      "output_sha256": "3afe86003df7f4e7c18595328f2cb20ffa4ec9131d810e6c538ed181329368a1",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 213770,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "tiamat-thinking-600",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPHeroMind.imageset/light.png",
+      "source_sha256": "94bbd64df7e9d86b4e1e024417586f6d380d3cdfe1f8443c5735d42709ffc05b",
+      "output_path": "assets/living-page/tiamat-thinking-600.webp",
+      "output_sha256": "99bd3834ed67791f94f8b5e693f91a9b220ca18caaeb9bcd960528530804c86d",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "dimensions": [
+        600,
+        600
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 90360,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "tiamat-listening",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPHeroListen.imageset/dark.png",
+      "source_sha256": "445ee7af579dfbf753896fbd7e7283944ac630f50aae6275cb81c29a34a3a36f",
+      "output_path": "assets/living-page/tiamat-listening.webp",
+      "output_sha256": "c1cbad8100eca1aa1a88d63b1383da6c9f0d31adaf434211471f7bcd1776b0cf",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "dimensions": [
+        800,
+        1000
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 272948,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "tiamat-listening-600",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPHeroListen.imageset/dark.png",
+      "source_sha256": "445ee7af579dfbf753896fbd7e7283944ac630f50aae6275cb81c29a34a3a36f",
+      "output_path": "assets/living-page/tiamat-listening-600.webp",
+      "output_sha256": "df068cde05c4cc973157bdd8ca6c20dc90c9e36ec6bc1da47a2ab5d6e55bca96",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "dimensions": [
+        600,
+        750
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 160926,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "page-light",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPPaintPage.imageset/light.png",
+      "source_sha256": "c10591c1e0fbe3ae9ac4ebb2862866586d316fe5093d341ad54f9dd77a7818a1",
+      "output_path": "assets/living-page/page-light.webp",
+      "output_sha256": "af562cef0ef8a0cfcce2c5541ca46a3250533a3396858c4fee8073c38e190ba6",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        1024,
+        2048
+      ],
+      "dimensions": [
+        1024,
+        2048
+      ],
+      "format": "webp",
+      "transparency": false,
+      "bytes": 62254,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "page-dark",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPPaintPage.imageset/dark.png",
+      "source_sha256": "2beda4fa384b393609c85c790f2446b92ad67595ccd5d32c1e4958883e55cedd",
+      "output_path": "assets/living-page/page-dark.webp",
+      "output_sha256": "e700274da09033be84ba1e0fa45a1b47f3efa48cee5adbac5731a199fff3558f",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        1024,
+        2048
+      ],
+      "dimensions": [
+        1024,
+        2048
+      ],
+      "format": "webp",
+      "transparency": false,
+      "bytes": 55328,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "paint-amber",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPPaintAmber.imageset/LPPaintAmber.png",
+      "source_sha256": "88d803b1fecf1556d95e3afa5f597b9e060492c73c1fb0912eb8f573f85e968b",
+      "output_path": "assets/living-page/paint-amber.webp",
+      "output_sha256": "9cf7501003a41f2aca5be74c57251de7a894fd22c918df7e212327cb35790b7a",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "dimensions": [
+        900,
+        300
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 95738,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "paint-violet",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPPaintViolet.imageset/LPPaintViolet.png",
+      "source_sha256": "8d29ef811770d4060e6c861bcee1ac24f0ed0fdeb5e57d67c1678f85f54decfb",
+      "output_path": "assets/living-page/paint-violet.webp",
+      "output_sha256": "eed0309413d8e3959622937281de6358126687734a86a68e9b1b99848b2c76a6",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "dimensions": [
+        900,
+        300
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 86762,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "paint-ivory",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPPaintIvory.imageset/LPPaintIvory.png",
+      "source_sha256": "e6222495f4ce2c815967a2df1ab7eb88f1d92fb0971a3095d5ebf2ffce991144",
+      "output_path": "assets/living-page/paint-ivory.webp",
+      "output_sha256": "ea8d179cc9d537b1d5f94ca1e792a0e1adeabbc01bf8e84520dfcf3704e5be77",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        2098,
+        750
+      ],
+      "dimensions": [
+        900,
+        322
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 85532,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "step-speak",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPExpressionSpeak.imageset/LPExpressionSpeak.png",
+      "source_sha256": "9ec1947c7d5d259c2cca98ddb112eb23442abf83c8495a9f55a2c6fd08b862ad",
+      "output_path": "assets/living-page/step-speak.webp",
+      "output_sha256": "6df141ef56b62d31eb930e1b741eedd38227ea4e3603a39b566c79f1621805b1",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        96,
+        96
+      ],
+      "dimensions": [
+        96,
+        96
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 1828,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "step-shape",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPExpressionWrite.imageset/LPExpressionWrite.png",
+      "source_sha256": "4f1af6df3a81237e369558375e369f5fe070d2cb78ed9aeed365cf56512d2e29",
+      "output_path": "assets/living-page/step-shape.webp",
+      "output_sha256": "7b89a6bb5f673ad6d9ad7d5f4697d75606ce3a2b97f7a3cb0f280369b5c9b6a0",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        96,
+        96
+      ],
+      "dimensions": [
+        96,
+        96
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 1916,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "step-listen",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPExpressionVoice.imageset/LPExpressionVoice.png",
+      "source_sha256": "b946ce1c1c027b993afe1a4852316050a9f0c84e7db1c26d63a7e6dae01ae1ae",
+      "output_path": "assets/living-page/step-listen.webp",
+      "output_sha256": "bd660ceb4beff24e7be25745be52c118d9ebdd0b4db670dda91703fe800bfea3",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        96,
+        96
+      ],
+      "dimensions": [
+        96,
+        96
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 1242,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "step-keep",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/LPPaintBook.imageset/LPPaintBook.png",
+      "source_sha256": "092da30c145a765e01fde8e04b5ad137a61dbd353cd76549385e3cb16a45f765",
+      "output_path": "assets/living-page/step-keep.webp",
+      "output_sha256": "800f209605a9216881b60eaa83736643a99def70be6bcd1b4e2132126501c293",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "dimensions": [
+        160,
+        160
+      ],
+      "format": "webp",
+      "transparency": true,
+      "bytes": 8164,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "innerreset-mark.png",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/BrandMark.imageset/BrandMark.png",
+      "source_sha256": "1c2915c3a6ece9d3a5f49bebace6a4e3dc0b0e6e32e241358c12f99c01bdcbb8",
+      "output_path": "assets/brand/innerreset-mark.png",
+      "output_sha256": "1c2915c3a6ece9d3a5f49bebace6a4e3dc0b0e6e32e241358c12f99c01bdcbb8",
+      "strategy": "Exact byte-for-byte copy of approved app source.",
+      "format": "png",
+      "bytes": 25988,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "favicon",
+      "source_crop": "../innerreset/ios/InnerReset/Assets.xcassets/BrandMark.imageset/BrandMark.png",
+      "source_sha256": "1c2915c3a6ece9d3a5f49bebace6a4e3dc0b0e6e32e241358c12f99c01bdcbb8",
+      "output_path": "assets/brand/favicon.png",
+      "output_sha256": "1df7e23929980316dc286954b7ed4ea7d236f456e666277827eff66b45a21fa1",
+      "strategy": "Aspect-preserving downscale and compression only; no crop, recolor or artwork edits.",
+      "source_dimensions": [
+        512,
+        512
+      ],
+      "dimensions": [
+        64,
+        64
+      ],
+      "format": "png",
+      "transparency": true,
+      "bytes": 3647,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "Cinzel-Medium.ttf",
+      "source_crop": "../innerreset/ios/InnerReset/Resources/Fonts/Cinzel-Medium.ttf",
+      "source_sha256": "da1b1dc10094f0506e8be57a182579d278020f1504e174d58b97ef923d1bdd90",
+      "output_path": "assets/fonts/Cinzel-Medium.ttf",
+      "output_sha256": "da1b1dc10094f0506e8be57a182579d278020f1504e174d58b97ef923d1bdd90",
+      "strategy": "Exact byte-for-byte copy of approved app source.",
+      "format": "ttf",
+      "bytes": 77272,
+      "deviations": [],
+      "qa_status": "accepted"
+    },
+    {
+      "id": "Cinzel-OFL.txt",
+      "source_crop": "../innerreset/ios/InnerReset/Resources/Fonts/Cinzel-OFL.txt",
+      "source_sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83",
+      "output_path": "assets/fonts/Cinzel-OFL.txt",
+      "output_sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83",
+      "strategy": "Exact byte-for-byte copy of approved app source.",
+      "format": "txt",
+      "bytes": 4383,
+      "deviations": [],
+      "qa_status": "accepted"
+    }
+  ],
+  "semantic": [
+    {
+      "id": "typography",
+      "implementation": "Use semantic h1/h2/h3 and paragraphs; @font-face Cinzel Medium for display headings and existing Inter for body. Keep copy selectable and responsive.",
+      "notes": "No raster lettering.",
+      "qa_status": "accepted"
+    },
+    {
+      "id": "controls",
+      "implementation": "Use native links, buttons and form controls with visible focus states; CSS places decorative paint textures behind live text and owns sizing and hit areas.",
+      "notes": "No baked buttons or labels.",
+      "qa_status": "accepted"
+    },
+    {
+      "id": "composition",
+      "implementation": "CSS grid places approved character img elements beside live copy; use object-fit: contain and intrinsic aspect ratios. Responsive layout stacks columns. CSS owns page color, spacing and paint background placement.",
+      "notes": "Do not crop silhouettes or stretch transparent textures.",
+      "qa_status": "accepted"
+    }
+  ],
+  "execution_order": [
+    "Convert existing approved app assets",
+    "Parent visually validates all outputs",
+    "Parent supplies and validates new Hoshi source assets separately"
+  ],
+  "blockers": [],
+  "assumptions": [
+    "Only build-consumed imagery belongs in this directory.",
+    "Small expression glyphs remain at native 96px resolution.",
+    "Tiamat offering is omitted until a consuming component requires it.",
+    "New male artwork generation is owned by the parent."
+  ]
+}
